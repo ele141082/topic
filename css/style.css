@@ -3,9 +3,10 @@ body {
 }
   
   .container-wrapper {
-    background-color: aqua;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
     padding: 0 10%;
 }
+
   
   /* .header-list {
     display: flex;
@@ -95,7 +96,22 @@ body {
 }
 
 .col-web {
+   height: 390px;
+   font-size: 1.2rem;
    background-color: white;
+   overflow: hidden;
+}
+
+.col-web h3 {
+   margin: 1rem;
+   margin-top: 2rem;
+   font-size: 1.5rem;
+}
+
+.col-web p {
+   margin: 1rem;
+   font-size: 1.2rem;
+   color: #717275;
 }
 
 .btn-more {
@@ -127,8 +143,7 @@ body {
     margin: 1rem;
     font-size: 1.5rem;
     color: white;
-    
-}
+  }
 
 .col-finance p {
     margin: 1rem;
@@ -137,7 +152,7 @@ body {
 }
 
 .col-finance {
-    
+    height: 390px;
     background-image: url(../businesswoman-using-tablet-analysis.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -153,3 +168,35 @@ body {
     justify-content: space-between;
 }
  
+.p-design {
+  color: #717275;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.col-topics h2 {
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+  color: #000000;
+}
+
+.list-browse {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+}
+
+.list-browse li {
+  font-size: 1.2rem;
+  color: #717275;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.list-browse li:hover {
+  color: #13547a;
+  border-bottom: 1px solid #13547a;
+}
